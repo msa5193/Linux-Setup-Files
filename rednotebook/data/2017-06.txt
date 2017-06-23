@@ -1,0 +1,21 @@
+22: {text: "= Today's Plan =  \nThursday, 06/22/2017 10:15:36 AM\n== Career Goals
+    ==\n\n- **What is 1 thing I can accomplish today?**\n  Think like a \"CEO/COO\"
+    or Very Professional in my thinking and approaches.\n\n- **How does this help
+    me in my career development?**\n  Trains my thinking to be done in a more productive
+    manner.\n\n- **What is one area I can improve on today?**\n  Reflect on Work,
+    Approach Tasks slowly and understand them as much as possible before attempting
+    to offer solutions.\n\n\n== Today's Development Goals ==\n\n- **Read 1 Chapter
+    Today**\n- **Write 1 Chapter Summary**\n  - Apt-get page 1\n- **Add 1 Page to
+    TQFBATD**\n\n\n== Today's Reflection ==\n\n- **What are 2 things that went well
+    today?**\n  - \n  - \n\n- **What could have been better today?**\n\n\n\n== Additional
+    Goals ==\n\n- Make a powerpoint for Automated Upgrades\n- Utilize the rednotebook
+    application.\n\n- Things to add to laptop\n  - SSH key for instant login to linux\n
+    \ - Setup x2go session for remote log in\n  - Notebook repository\n  - Back up
+    computer's important files\n  - Transferring important Files between the 2 systems.\n
+    \ - Update bash and put it in git\n  - Work on both environments simultaneously\n
+    \   - Figure Way to handle Chrome Tabs\n\n\n=== Notes ===\n\n- Emailed Mike Woods
+    about Laptop\n  - Went and picked up Laptop today.  Will need to have IT circle
+    back to do something to it, but at the rate they are going that will most likely
+    be never.\n\n- Kicked off full Testfarm Run for FPGA build\n\n- Planning to go
+    to Caspian for Lunch\n  - Delicious\n\n- Archive Server 19.0 8000 build did not
+    work on 10.12.59.51\n  - Trying 18.3\n\n\n"}
