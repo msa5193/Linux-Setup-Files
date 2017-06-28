@@ -1,0 +1,12 @@
+set nocompatible
+set background=dark
+set number
+set tabstop=4
+set shiftwidth=4
+set expandtab
+syntax on
+set autoindent
+set smartindent
+set ic
+set backspace=2
+set hlsearch 

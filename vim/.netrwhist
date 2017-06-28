@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/abb62261/working-copy/temp-battmon-script/2017-2-26'
-let g:netrw_dirhist_2='/home/abb62261/working-copy/temp-battmon-script/2017-2-27'
-let g:netrw_dirhist_3='/home/abb62261/temp-battmon-script/2017-3-3'
-let g:netrw_dirhist_4='/home/abb62261/working-copy/Battery-Scripts/battmon-script'
-let g:netrw_dirhist_5='/home/abb62261/Downloads/2U_16T_4P_1G'
-let g:netrw_dirhist_6='/home/abb62261/working-copy/mts-snapshot/mts_snapshot.egg-info'
