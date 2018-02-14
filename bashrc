@@ -121,6 +121,19 @@ function parse_git_branch () {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
+function parse_mts_project () {
+
+  [[ "$PWD" =~ working-copy ]] && pwd | sed 's,^\(.*working-copy/\)\?\([^/].*work\),\2,' | sed 's,^\(.*\)\?\([^/]*\/work.*\),\1,'
+ 
+}
+
+function mts_project () {
+  echo [$(parse_mts_project)];
+}
+    
+
+
+
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
@@ -138,7 +151,9 @@ PERL_MB_OPT="--install_base \"/home/abb62261/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/abb62261/perl5"; export PERL_MM_OPT;
 
 #PS1='[\u@\h \W]\$ '  # Default
-PS1='\[[\D{%D}|\t] \e[1;36m\][\u $(parse_git_branch) \W]\$\[\e[0m\]' 
+PS1='\[\e[1;32m\]\D{%D}|\t\[\e[1;36m\][\u $(mts_project)$(parse_git_branch) \W]\$\[\e[0m\] ' 
+#PS1='\[\e[1;36m\][\u $(parse_git_branch) \W]\$\[\e[0m\] ' 
+
 
 
 alias etd='echo $TESTDIR'
@@ -148,6 +163,9 @@ alias clearcache='sudo sh -c '"'"'echo 1 >/proc/sys/vm/drop_caches'"'"'; sudo sh
 alias burnin='ssh viaviadmin@ubuntu-burnin-lab'
 alias upgrade='./RunAutoTest.pl --upgrade '
 alias gersat='ssh root@ger-sat-linux-1'
+alias mts-test-setup='cd /home/abb62261/working-copy/develop/work/hst/build/mts-module-embedded-x86_64-native; mts build module native; cd -'
+alias mts-test='cd /home/abb62261/working-copy/develop/work/hst/build/mts-module-embedded-x86_64-native; mts build module native embedded; ctest -R; cd -'
+alias mts-hst='cd /home/abb62261/working-copy/develop/work/hst/'
 
 # Git aliases
 alias gits='git status'
